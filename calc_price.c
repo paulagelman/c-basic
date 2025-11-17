@@ -37,9 +37,9 @@ int main() {
                         (size_of_order/weight_kg)*COST_PER_SQURE_WEIGHT;
 
     
-    printf("The size of the order is %2f\n",size_of_order); 
-    printf("The weight of the order is %3f\n",weight_kg); 
-    printf("The price of the order is %2f\n",price_of_order); 
+    printf("The size of the order is %.2f\n",size_of_order); 
+    printf("The weight of the order is %.3f\n",weight_kg); 
+    printf("The price of the order is %.2f\n",price_of_order); 
 
     return 0;
 }
